@@ -1,4 +1,4 @@
-# Hello Japan 🇯🇵
+# Hello Japan
 A simple landing page I built while learning HTML and CSS on Codecademy.
 
 ## Features
