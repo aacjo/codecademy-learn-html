@@ -1,9 +1,7 @@
 /* ==============================
-   Base Styles for "Hello Japan" Page
-   Author: Aaron
+   Hello Japan Page Styles
    ============================== */
 
-/* Reset and basic layout */
 body {
   margin: 0;
   font-family: 'Segoe UI', Roboto, sans-serif;
@@ -25,7 +23,15 @@ h1 {
   margin-bottom: 10px;
 }
 
-/* Paragraph text */
+/* Japanese flag image */
+img {
+  display: block;
+  margin: 10px auto 25px;
+  border: 1.5px solid #d23c3c;
+  border-radius: 6px;
+}
+
+/* Paragraph */
 p {
   font-size: 1.2rem;
   margin-bottom: 20px;
@@ -48,7 +54,7 @@ a:hover {
   transform: scale(1.05);
 }
 
-/* Small footer touch (optional) */
+/* Footer */
 footer {
   position: absolute;
   bottom: 15px;
