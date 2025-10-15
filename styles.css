@@ -1,0 +1,57 @@
+/* ==============================
+   Base Styles for "Hello Japan" Page
+   Author: Aaron
+   ============================== */
+
+/* Reset and basic layout */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  color: #222;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Header */
+h1 {
+  font-size: 2.5rem;
+  color: #d23c3c;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph text */
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  max-width: 600px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  background-color: #d23c3c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #b52f2f;
+  transform: scale(1.05);
+}
+
+/* Small footer touch (optional) */
+footer {
+  position: absolute;
+  bottom: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
