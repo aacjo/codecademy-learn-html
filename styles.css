@@ -29,6 +29,23 @@ img {
   margin: 10px auto 25px;
   border: 1.5px solid #d23c3c;
   border-radius: 6px;
+
+  /* Fade-in animation */
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeInFlag 1.6s ease-out forwards;
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeInFlag {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Paragraph */
