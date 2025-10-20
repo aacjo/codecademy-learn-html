@@ -5,7 +5,7 @@ A simple landing page I built while learning HTML and CSS on Codecademy.
 - Responsive design  
 - Japanese flag fade-in animation  
 - Clean typography and color palette  
-- Hosted on GitHub Pages: [aacjo.github.io/codecademy-learn-html/hello-japan.html](https://aacjo.github.io/codecademy-learn-html/hello-japan.html)
+- Hosted on GitHub Pages: [aacjo.github.io/hello-japan-website/hello-japan.html](https://aacjo.github.io/hello-japan-website/hello-japan.html)
 
 ## Tech Used
 - HTML5  
